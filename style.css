@@ -1,0 +1,89 @@
+
+/* Cards */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sub-container {
+  width: 410px;
+  height: 510px;
+  border: 5px solid black;
+  margin: 20px 0;
+}
+
+.title-container {
+  margin-top: 20px;
+}
+
+.cover-one,
+.cover-two,
+.cover-three,
+.cover-four {
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+}
+
+#awesome-gif:hover,
+#pizza-gif:hover,
+#rats-gif:hover,
+#subay-gif {
+  width: 400px;
+  height: 500px;
+}
+
+.cover-one {
+  background-image: url("./images/ny.jpg");
+}
+
+#awesome-gif:hover {
+  background-image: url("./images/awesome.gif");
+  background-size: 500px 500px;
+}
+
+.cover-two {
+  background-image: url("./images/times.jpg");
+}
+
+#pizza-gif:hover {
+  background-image: url("./images/pizza.gif");
+  background-size: 400px 500px;
+}
+
+.cover-three {
+  background-image: url("./images/bridge.jpg");
+}
+
+#rats-gif:hover {
+  background-image: url("./images/rats.gif");
+  background-size: 400px 500px;
+}
+
+.cover-four {
+  background-image: url("./images/park.jpg");
+}
+
+#subay-gif:hover {
+  background-image: url("./images/subway.gif");
+}
+
+/* Footer */
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 55px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+#text-footer {
+    color: white;
+    margin-bottom: 0;
+    font-size: 14px;
+}

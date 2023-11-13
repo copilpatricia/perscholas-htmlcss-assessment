@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Inter:wght@400;600;700&family=Montserrat:wght@300;400;700;800&family=Orbitron:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Html & CSS website</title>
+  </head>
+  <body
+    style="
+      background-color: #bfd7ea;
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+    "
+  >
+    <!-- Header section -->
+    <header>
+      <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">🍎</a>
+          <div class="btn-group">
+            <button
+              type="button"
+              class="btn btn-secondary dropdown-toggle bg-danger"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+              aria-expanded="false"
+            >
+              Menu
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="./pages/table.html"> Table</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="./pages/forms.html">Forms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+
+    <main>
+      <div class="container">
+        <h2 class="title-container">How does it feel to be in NYC?</h2>
+        <div class="sub-container">
+          <div class="cover-one" id="awesome-gif"></div>
+        </div>
+
+        <h2 class="title-container">What food is NYC most famous for?</h2>
+        <div class="sub-container">
+          <div class="cover-two" id="pizza-gif"></div>
+        </div>
+
+        <h2 class="title-container">What do New Yorkers hate the most?</h2>
+        <div class="sub-container">
+          <div class="cover-three" id="rats-gif"></div>
+        </div>
+
+        <h2 class="title-container">
+          What is the best way to get around in NYC?
+        </h2>
+        <div class="sub-container">
+          <div class="cover-four" id="subay-gif"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <p id="text-footer">Subscribe here to receive the NYC Travel Guide.</p>
+    </footer>
+  </body>
+</html>
